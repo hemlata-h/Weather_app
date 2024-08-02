@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    /* background: linear-gradient(aquamarine,rgb(74, 41, 102) ); */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainBox {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 2px solid none;
+    height: 75vh;
+    width: 55vh;
+    border-radius: 25px;
+    background: linear-gradient(-45deg, #59289a, #eaa7e6, #48cae4 85% );
+}
+.searchBox{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#box {
+    height: 3rem;
+    width:65vh;
+     padding: 1.5em; ; 
+    margin: 2rem 0.5rem 2rem 2rem;
+ border-radius: 25px;
+ border: 2px solid white;
+ background-color: white;
+ color: gray;
+  outline: none;
+
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: rgb(42, 41, 41);
+    height: 3rem;
+    width: 5rem;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 2px;
+    align-items: center;
+    /* margin: 3px; */
+    margin: 2rem 2rem 2rem 0.5rem;
+}
+
+.centerElement {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 3rem; */
+  height: 16rem;
+  padding-left: 1.5;
+  margin-left: 3rem;
+  margin-bottom: 0.5rem;
+}
+.temp, .stateName {
+    /* margin-left: 10rem; */
+    margin: 0rem;
+    /* padding-left: 2rem; */
+    /* border: 2px solid black; */
+    font-size: 2.9rem;
+    color: white;
+    font-weight: bolder;
+}
+/* #fix{ */
+    /* margin-left: 3rem; */
+/* } */
+#sun {
+    /* margin-right: 4rem; */
+    /* border: 2px solid black; */
+    padding-right: 3rem;
+    height: 9rem;
+    width: 11rem;
+}
+
+.bottomElement {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.humidity{
+    margin-right: 2.5rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#humidity {
+    height: 2rem;
+}
+#wind {
+    height: 2rem;
+    margin-right: 1px;
+}
+.windSpeed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
